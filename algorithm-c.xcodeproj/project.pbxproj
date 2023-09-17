@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D868F19C2AB49B9B00465C20 /* problem-12909.c in Sources */ = {isa = PBXBuildFile; fileRef = D868F19B2AB49B9B00465C20 /* problem-12909.c */; };
+		D8D85FDD2AB6A63200DBB0E0 /* problem-12945.c in Sources */ = {isa = PBXBuildFile; fileRef = D8D85FDC2AB6A63200DBB0E0 /* problem-12945.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		D868F18C2AB4964200465C20 /* algorithm-c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "algorithm-c"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D868F19B2AB49B9B00465C20 /* problem-12909.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "problem-12909.c"; sourceTree = "<group>"; };
+		D8D85FDC2AB6A63200DBB0E0 /* problem-12945.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "problem-12945.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				D868F19B2AB49B9B00465C20 /* problem-12909.c */,
+				D8D85FDC2AB6A63200DBB0E0 /* problem-12945.c */,
 			);
 			path = programmers;
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D868F19C2AB49B9B00465C20 /* problem-12909.c in Sources */,
+				D8D85FDD2AB6A63200DBB0E0 /* problem-12945.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +184,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -231,6 +236,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_CFLAGS = "";
 				SDKROOT = macosx;
 			};
 			name = Release;
