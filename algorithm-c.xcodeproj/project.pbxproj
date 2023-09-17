@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D84E65BA2AB6F24E00FFC356 /* odd_occurrences_in_array.c in Sources */ = {isa = PBXBuildFile; fileRef = D84E65B92AB6F24E00FFC356 /* odd_occurrences_in_array.c */; };
 		D868F19C2AB49B9B00465C20 /* problem-12909.c in Sources */ = {isa = PBXBuildFile; fileRef = D868F19B2AB49B9B00465C20 /* problem-12909.c */; };
 		D8D85FDD2AB6A63200DBB0E0 /* problem-12945.c in Sources */ = {isa = PBXBuildFile; fileRef = D8D85FDC2AB6A63200DBB0E0 /* problem-12945.c */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D84E65B92AB6F24E00FFC356 /* odd_occurrences_in_array.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = odd_occurrences_in_array.c; sourceTree = "<group>"; };
 		D868F18C2AB4964200465C20 /* algorithm-c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "algorithm-c"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D868F19B2AB49B9B00465C20 /* problem-12909.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "problem-12909.c"; sourceTree = "<group>"; };
 		D8D85FDC2AB6A63200DBB0E0 /* problem-12945.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "problem-12945.c"; sourceTree = "<group>"; };
@@ -40,9 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D84E65B82AB6ED7100FFC356 /* codility */ = {
+			isa = PBXGroup;
+			children = (
+				D84E65B92AB6F24E00FFC356 /* odd_occurrences_in_array.c */,
+			);
+			path = codility;
+			sourceTree = "<group>";
+		};
 		D868F1832AB4964200465C20 = {
 			isa = PBXGroup;
 			children = (
+				D84E65B82AB6ED7100FFC356 /* codility */,
 				D868F1972AB496F600465C20 /* programmers */,
 				D868F18D2AB4964200465C20 /* Products */,
 			);
@@ -124,6 +135,7 @@
 			files = (
 				D868F19C2AB49B9B00465C20 /* problem-12909.c in Sources */,
 				D8D85FDD2AB6A63200DBB0E0 /* problem-12945.c in Sources */,
+				D84E65BA2AB6F24E00FFC356 /* odd_occurrences_in_array.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
