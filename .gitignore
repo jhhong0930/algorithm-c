@@ -8,7 +8,7 @@
 *.perspectivev3
 *.xcuserstate
 xcuserdata/
-build/
+out/
 
 algorithm-c.xcodeproj/xcuserdata/*
 algorithm-c.xcodeproj/project.xcworkspace/xcuserdata/*
