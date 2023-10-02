@@ -1,8 +1,8 @@
 // PermCheck
 // https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/
 
-// N (1 ~ 100,000)
-// 배열 길이 (1 ~ 1,000,000,000)
+// 배열 길이 N (1 ~ 100,000)
+// 각 원소 범위 (1 ~ 1,000,000,000)
 // 배열길이 N 만큼 정렬하여 첫 번째 원소부터 확인
 // 정렬을 해도 첫 원소가 1부터 시작을 하지 않으면 false
 // 예상 시간복잡도: O(N) 또는 0(N logN)
